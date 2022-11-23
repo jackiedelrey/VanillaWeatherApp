@@ -19,7 +19,34 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <h1>HI 🙋🏼‍♀️</h1>
+    <div class="container">
+      <div class="weather-app">
+        <form class="form">
+          <input type="text" placeholder="Enter a city" id="enter-city" />
+          <div class="row-12">
+            <input type="submit" value="Search" id="search-button" />
+            <input type="submit" value="Current" id="search-button" />
+          </div>
+        </form>
+              <div class="overview">
+        <div class="row">
+          <div class="col">
+        
+            <h2 id="city">Glasgow<h2>
+              <h2 id="dayTime"> Sunday - 14:00<h2>
+                <div class = row>
+                <h2 id="description"> Cloudy <h2>
+            <ul>
+              <li>Humidity:</li><span id="humidity"></span>%<br/>
+              <li>Wind:</li><span id="wind"></span>km
+            </ul>
+            </div>
+            <span class="currentTemperature" id=current-temperature>
+            17°C
+            </span> 
+            
+          </div>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
