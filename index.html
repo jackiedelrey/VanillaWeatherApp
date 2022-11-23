@@ -22,11 +22,12 @@
     <div class="container">
       <div class="weather-app">
         <form class="form">
-          <input type="text" placeholder="Enter a city" id="enter-city" />
-          <div class="row-12">
+          <input type="text" placeholder="Enter a city..." id="enter-city" />
+          <div class="buttons">
+          <div class="row-6">
             <input type="submit" value="Search" id="search-button" />
-            <input type="submit" value="Current" id="search-button" />
-          </div>
+            <input type="submit" value="Current" id="current-button" />
+         </div> </div>
         </form>
               <div class="overview">
         <div class="row">
@@ -37,8 +38,8 @@
                 <div class = row>
                 <h2 id="description"> Cloudy <h2>
             <ul>
-              <li>Humidity:</li><span id="humidity"></span>%<br/>
-              <li>Wind:</li><span id="wind"></span>km
+              <li>Humidity:<span id="humidity"></span>%</li>
+              <li>Wind:<span id="wind"></span> km</li>
             </ul>
             </div>
             <span class="currentTemperature" id=current-temperature>
