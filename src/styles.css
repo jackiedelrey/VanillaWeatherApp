@@ -1,17 +1,31 @@
 .weather-app {
+  max-width: 600px;
   padding: 20px;
   border: 1px solid;
   border-radius: 5px;
-  text-align: center;
+  text-align: left;
+  margin: 30px auto;
+  display: block;
 }
 
+h2 {
+  margin: 10px auto;
+}
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 10px auto;
+  padding: 0px;
   font-size: 20px;
 }
 
 .buttons {
-  padding: 20px;
+  margin: 20px auto;
+}
+
+.currentTemperature {
+  margin: 0px;
+  text-align: left;
+  padding: 10px, 0px, 10px, 10px;
+  display: block;
+  font-size: 30px;
 }
