@@ -36,8 +36,9 @@ h6 {
   font-size: 60px;
 }
 
-.source-code {
+.sourceCode {
   max-width: 600px;
+  text-align: center;
 }
 
 .col-right {
