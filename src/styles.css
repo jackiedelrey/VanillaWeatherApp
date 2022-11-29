@@ -8,13 +8,8 @@ ul {
   font-size: 20px;
 }
 
-h6 {
-  text-align: center;
-  margin: 0px auto;
-  font-size: 15px;
-}
-
 .weather-app {
+  position: relative;
   max-width: 600px;
   padding: 20px;
   border: 1px solid;
@@ -37,7 +32,6 @@ h6 {
 }
 
 .sourceCode {
-  max-width: 600px;
   text-align: center;
 }
 
@@ -49,4 +43,5 @@ h6 {
   position: relative;
   top: -28px;
   font-size: 20px;
+  text-align: center;
 }
