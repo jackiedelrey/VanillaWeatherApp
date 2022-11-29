@@ -35,6 +35,9 @@ ul {
   padding: 10px, 0px, 10px, 10px;
   font-size: 60px;
 }
+#weather-picture {
+  margin: 0px;
+}
 
 .sourceCode {
   text-align: center;
@@ -42,6 +45,7 @@ ul {
 
 .col-right {
   text-align: right;
+  margin-bottom: 0px;
 }
 
 .units {
