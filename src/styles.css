@@ -1,8 +1,8 @@
 h2 {
-  margin: 10px auto;
+  margin-top: 20px;
 }
 
-li {
+li:first-letter {
   text-transform: capitalize;
 }
 
