@@ -1,6 +1,11 @@
 h2 {
   margin: 10px auto;
 }
+
+li {
+  text-transform: capitalize;
+}
+
 ul {
   list-style-type: none;
   margin: 10px auto;
