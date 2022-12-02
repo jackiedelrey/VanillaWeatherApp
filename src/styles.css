@@ -56,6 +56,15 @@ ul {
   text-align: center;
 }
 
+.units a {
+  text-decoration: none;
+}
+
+.units a:hover {
+  color: grey;
+  cursor: pointer;
+}
+
 .buttons {
   margin: 0px;
   text-align: right;
